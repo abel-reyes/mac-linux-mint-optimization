@@ -4,7 +4,7 @@ A technical walkthrough, system configuration guide, and hardware optimization r
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Project Overview](#project-overview)
 - [Target Hardware Specifications](#target-hardware-specifications)
 - [Key Engineering Accomplishments](#key-engineering-accomplishments)
@@ -20,7 +20,7 @@ A technical walkthrough, system configuration guide, and hardware optimization r
 
 ---
 
-## 🌟 Project Overview
+## Project Overview
 
 This project documents the complete software conversion and system-level optimization of a 2017 13-inch MacBook Pro running Linux Mint XFCE.
 
@@ -28,7 +28,7 @@ Deploying modern Linux distributions to mid-2010s Apple hardware presents specif
 
 ---
 
-## 💻 Target Hardware Specifications
+## Target Hardware Specifications
 
 - **Device:** Apple MacBook Pro (13-inch, 2017 / `MacBookPro14,1`)
 - **Host OS:** Linux Mint 22.3 Zena (XFCE 4.18.1)
@@ -37,7 +37,7 @@ Deploying modern Linux distributions to mid-2010s Apple hardware presents specif
 
 ---
 
-## ✨ Key Engineering Accomplishments
+## Key Engineering Accomplishments
 
 - **Reclaimed 13 GB of Storage Space:** Conducted low-level disk usage audits using `journalctl`, `apt`, and `ncdu` to purge orphaned package dependencies, vacuum system logs, and optimize system caches[cite: 5].
 - **NVMe & ACPI Kernel Tuning:** Applied custom GRUB kernel parameters (`nvme_core.default_ps_max_latency_us=5500` and `acpi_enforce_resources=lax`) to prevent SSD latency crashes and resolve resource conflicts on Apple motherboard hardware.
@@ -47,7 +47,7 @@ Deploying modern Linux distributions to mid-2010s Apple hardware presents specif
 
 ---
 
-## 🏗️ Technical Procedures & Hardware Configurations
+## Technical Procedures & Hardware Configurations
 
 ### 1. Storage Audit & System Reclamation
 Executed targeted root-level system audits to isolate non-essential storage bloat and optimize package dependencies[cite: 5]:
@@ -102,7 +102,7 @@ IdleAction=ignore
 
 ---
 
-## 📊 System Verification & Diagnostic Reports
+## System Verification & Diagnostic Reports
 
 System state and hardware verification reports can be generated directly from the terminal using built-in system diagnostics tools:
 
@@ -116,7 +116,7 @@ The generated report confirms active kernel releases, active driver modules, mem
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 ├── HARDWARE-REPORT.md        # System diagnostic dump generated via inxi
@@ -127,6 +127,6 @@ The generated report confirms active kernel releases, active driver modules, mem
 
 ---
 
-## 📄 License
+## License
 
 This repository is available open-source under the [MIT License](https://www.google.com/search?q=LICENSE&utm_source=gemini).

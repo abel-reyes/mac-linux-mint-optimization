@@ -129,4 +129,4 @@ The generated report confirms active kernel releases, active driver modules, mem
 
 ## License
 
-This repository is available open-source under the [MIT License](https://www.google.com/search?q=LICENSE&utm_source=gemini).
+This repository is available open-source under the [MIT License](LICENSE).

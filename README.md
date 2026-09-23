@@ -1,4 +1,4 @@
-## Mac-to-Linux Mint OS Migration & Optimization
+# Mac-to-Linux Mint OS Migration & Optimization
 
 A technical walkthrough, system configuration guide, and hardware optimization record for converting legacy Apple hardware into a high-performance development workstation running **Linux Mint XFCE**.
 
